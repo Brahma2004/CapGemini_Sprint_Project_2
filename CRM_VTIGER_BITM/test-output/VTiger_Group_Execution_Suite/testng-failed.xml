@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [VTiger_Group_Execution_Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Group_Test_Execution(failed)">
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="Smoke"/>
+        <include name="Functional"/>
+        <include name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest">
+        <methods>
+          <include name="createProjectTaskWithValidDetailsTest"/>
+          <include name="captureScreenshotOnFailure"/>
+          <include name="closeBrowser"/>
+          <include name="navigateToApp"/>
+          <include name="dbConnection"/>
+          <include name="afterTest"/>
+          <include name="closeConnection"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest -->
+    </classes>
+  </test> <!-- Group_Test_Execution(failed) -->
+</suite> <!-- Failed suite [VTiger_Group_Execution_Suite] -->

@@ -1,0 +1,366 @@
+<html>
+<head>
+<title>TestNG:  Group_Test_Execution</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Group_Test_Execution</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>18/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Oct 22 09:57:53 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>464 seconds (464554 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>Functional Regression Smoke </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest.createProjectTaskWithValidDetailsTest()'><b>createProjectTaskWithValidDetailsTest</b><br>Test class: CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest<br>Test method: TC-VT-PT-01: Verify creation of a new Project Task with valid details</td>
+<td><div><pre>java.lang.IllegalArgumentException: Worksheet not found: Project Tasks
+	at CRM_Vtiger_BITM_GenericUtility.CRM_Vtiger_BITM_ExcelUtility.getSheet(CRM_Vtiger_BITM_ExcelUtility.java:81)
+	at CRM_Vtiger_BITM_GenericUtility.CRM_Vtiger_BITM_ExcelUtility.getAllDataAsMaps(CRM_Vtiger_BITM_ExcelUtility.java:119)
+	at CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest.getProjectTaskData(CRM_Vtiger_BITM_ProjectTasksTest.java:26)
+	at CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest.getFirstProjectTaskRecord(CRM_Vtiger_BITM_ProjectTasksTest.java:31)
+	at CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest.createProjectTaskWithValidDetailsTest(CRM_Vtiger_BITM_ProjectTasksTest.java:76)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace729005419", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace729005419'><pre>java.lang.IllegalArgumentException: Worksheet not found: Project Tasks
+	at CRM_Vtiger_BITM_GenericUtility.CRM_Vtiger_BITM_ExcelUtility.getSheet(CRM_Vtiger_BITM_ExcelUtility.java:81)
+	at CRM_Vtiger_BITM_GenericUtility.CRM_Vtiger_BITM_ExcelUtility.getAllDataAsMaps(CRM_Vtiger_BITM_ExcelUtility.java:119)
+	at CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest.getProjectTaskData(CRM_Vtiger_BITM_ProjectTasksTest.java:26)
+	at CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest.getFirstProjectTaskRecord(CRM_Vtiger_BITM_ProjectTasksTest.java:31)
+	at CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest.createProjectTaskWithValidDetailsTest(CRM_Vtiger_BITM_ProjectTasksTest.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>1</td>
+<td>CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@7dc0f706</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test.verifyLogoutOptionVisibilityAndLogoutTest()'><b>verifyLogoutOptionVisibilityAndLogoutTest</b><br>Test class: CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test<br>Test method: TC-VT-LOGIN-08: Verify navigation from Login page to Home page and verify logout options<br/>
+<a href="#Output-507583873" onClick='toggleBox("Output-507583873", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-507583873" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-507583873">
+PASS: Sign Out option is verified.<br/>
+Logout clicked successfully.<br/>
+PASS: Logout succeeded and user returned to login page.<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test@20d525</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test.verifyHomePageElementsVisibilityTest()'><b>verifyHomePageElementsVisibilityTest</b><br>Test class: CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test<br>Test method: TC-VT-LOGIN-03: Verify home page elements visibility<br/>
+<a href="#Output-1132369181" onClick='toggleBox("Output-1132369181", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1132369181" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1132369181">
+PASS: Home page navigation, Products, and Contacts modules are visible.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test@20d525</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test.verifyLoginWithValidCredentialsTest()'><b>verifyLoginWithValidCredentialsTest</b><br>Test class: CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test<br>Test method: TC-VT-LOGIN-01: Verify login with valid credentials<br/>
+<a href="#Output-486348917" onClick='toggleBox("Output-486348917", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-486348917" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-486348917">
+Login page opened successfully.<br/>
+PASS: User authenticated and VTiger Home page is displayed.<br/>
+</div>
+</td>
+<td></td>
+<td>48</td>
+<td>CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test@20d525</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest.verifyProjectMilestonesInMoreMenuTest()'><b>verifyProjectMilestonesInMoreMenuTest</b><br>Test class: CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest<br>Test method: TC-VT-PM-06: Verify Project Milestones is visible under the More menu<br/>
+<a href="#Output-1503304882" onClick='toggleBox("Output-1503304882", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1503304882" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1503304882">
+PASS: Project Milestones opened from More menu.<br/>
+</div>
+</td>
+<td></td>
+<td>31</td>
+<td>CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@4009e306</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest.verifyFAQPageTest()'><b>verifyFAQPageTest</b><br>Test class: CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest<br>Test method: TC-VT-FAQ-08: Verify navigation to FAQ list page<br/>
+<a href="#Output-457586988" onClick='toggleBox("Output-457586988", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-457586988" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-457586988">
+PASS: FAQ list page opened successfully.<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@43c1b556</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest.createProjectMilestoneWithValidDetailsTest()'><b>createProjectMilestoneWithValidDetailsTest</b><br>Test class: CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest<br>Test method: TC-VT-PM-03: Verify creation of a new Project Milestone with valid details<br/>
+<a href="#Output-421135185" onClick='toggleBox("Output-421135185", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-421135185" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-421135185">
+PASS: Created milestone: Milestone_dbab8b23 | Type: other | Project: Suekha<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@4009e306</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest.editAndDeleteFAQTest()'><b>editAndDeleteFAQTest</b><br>Test class: CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest<br>Test method: TC-VT-FAQ-03: Verify editing and deleting a created FAQ<br/>
+<a href="#Output-1900120650" onClick='toggleBox("Output-1900120650", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1900120650" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1900120650">
+PASS: FAQ edit and delete verified.<br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@43c1b556</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest.createServiceContractWithExcelDataTest()'><b>createServiceContractWithExcelDataTest</b><br>Test class: CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest<br>Test method: TC-VT-SC-10: Verify basic Service Contract creation flow<br/>
+<a href="#Output-1610470672" onClick='toggleBox("Output-1610470672", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1610470672" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1610470672">
+Service Contracts list opened.<br/>
+Create Service Contract form opened.<br/>
+Save button clicked.<br/>
+PASS: Service Contract created with Subject: Mukesh - Support Agreement 83fc7<br/>
+</div>
+</td>
+<td></td>
+<td>18</td>
+<td>CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest@587e5365</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest.createNewFAQTest()'><b>createNewFAQTest</b><br>Test class: CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest<br>Test method: TC-VT-FAQ-01: Verify creation of a new FAQ<br/>
+<a href="#Output-1518037877" onClick='toggleBox("Output-1518037877", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1518037877" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1518037877">
+PASS: FAQ created successfully: How can a customer update their portal password? 006da<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@43c1b556</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest.verifyProjectTasksInMoreMenuTest()'><b>verifyProjectTasksInMoreMenuTest</b><br>Test class: CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest<br>Test method: TC-VT-PT-06: Verify Project Tasks is visible under the More menu<br/>
+<a href="#Output-364266169" onClick='toggleBox("Output-364266169", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-364266169" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-364266169">
+PASS: Project Tasks page is accessible from More menu.<br/>
+</div>
+</td>
+<td></td>
+<td>31</td>
+<td>CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@7dc0f706</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest.verifyServiceContractsInMoreMenuTest()'><b>verifyServiceContractsInMoreMenuTest</b><br>Test class: CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest<br>Test method: TC-VT-SC-05: Verify Service Contracts visibility under Support in More menu<br/>
+<a href="#Output-1386693416" onClick='toggleBox("Output-1386693416", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1386693416" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1386693416">
+PASS: Service Contracts opened successfully.<br/>
+</div>
+</td>
+<td></td>
+<td>33</td>
+<td>CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest@587e5365</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest.verifyFAQInMoreMenuTest()'><b>verifyFAQInMoreMenuTest</b><br>Test class: CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest<br>Test method: TC-VT-FAQ-05: Verify FAQ visibility under Support in More menu<br/>
+<a href="#Output-1319217746" onClick='toggleBox("Output-1319217746", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1319217746" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1319217746">
+PASS: FAQ navigation via More menu verified.<br/>
+</div>
+</td>
+<td></td>
+<td>31</td>
+<td>CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@43c1b556</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest.createProjectWithValidDetailsTest()'><b>createProjectWithValidDetailsTest</b><br>Test class: CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest<br>Test method: TC-VT-PROJ-01: Verify creation of a new project with valid details<br/>
+<a href="#Output-110296358" onClick='toggleBox("Output-110296358", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-110296358" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-110296358">
+Projects list opened: http://49.249.29.4:8888/index.php?module=Project&action=index<br/>
+Create Project form opened.<br/>
+Project Name entered: QAProj_894f907a<br/>
+Save button clicked.<br/>
+PASS: Created project with valid details: QAProj_894f907a<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest@3d34d211</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest.searchFAQByQuestionTest()'><b>searchFAQByQuestionTest</b><br>Test class: CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest<br>Test method: TC-VT-FAQ-02: Verify saved FAQ using question/subject search<br/>
+<a href="#Output-1503844182" onClick='toggleBox("Output-1503844182", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1503844182" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1503844182">
+PASS: FAQ search by Question verified.<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@43c1b556</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test.verifyLoginPageElementsVisibilityTest()'><b>verifyLoginPageElementsVisibilityTest</b><br>Test class: CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test<br>Test method: TC-VT-LOGIN-02: Verify login page elements visibility<br/>
+<a href="#Output-743219449" onClick='toggleBox("Output-743219449", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-743219449" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-743219449">
+Login page opened successfully.<br/>
+PASS: Login page controls and labels are visible and usable.<br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test@20d525</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest.verifyProjectsInMoreMenuTest()'><b>verifyProjectsInMoreMenuTest</b><br>Test class: CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest<br>Test method: TC-VT-PROJ-06: Verify Projects is visible under the More navigation menu<br/>
+<a href="#Output-353580491" onClick='toggleBox("Output-353580491", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-353580491" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-353580491">
+PASS: Projects page is accessible from More menu.<br/>
+</div>
+</td>
+<td></td>
+<td>31</td>
+<td>CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest@3d34d211</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest.basicFAQCreationSmokeFlowTest()'><b>basicFAQCreationSmokeFlowTest</b><br>Test class: CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest<br>Test method: TC-VT-FAQ-10: Verify basic FAQ creation flow<br/>
+<a href="#Output-1013118618" onClick='toggleBox("Output-1013118618", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1013118618" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1013118618">
+PASS: Basic FAQ creation flow verified.<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@43c1b556</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest.searchSavedProjectByNameTest()'><b>searchSavedProjectByNameTest</b><br>Test class: CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest<br>Test method: TC-VT-PROJ-02: Verify a saved project using project-name search<br/>
+<a href="#Output-500660587" onClick='toggleBox("Output-500660587", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-500660587" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-500660587">
+Projects list opened: http://49.249.29.4:8888/index.php?module=Project&action=index<br/>
+Create Project form opened.<br/>
+Project Name entered: SearchProj_d4870069<br/>
+Save button clicked.<br/>
+Projects list opened: http://49.249.29.4:8888/index.php?module=Project&action=index<br/>
+PASS: Saved project found in search results: SearchProj_d4870069<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest@3d34d211</td></tr>
+</table><p>
+</body>
+</html>

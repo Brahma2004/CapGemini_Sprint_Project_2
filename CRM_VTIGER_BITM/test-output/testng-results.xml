@@ -1,0 +1,1480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="35" passed="35" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Before Suite: Setup started]]>
+    </line>
+    <line>
+      <![CDATA[Before Test: Test execution started]]>
+    </line>
+    <line>
+      <![CDATA[Before Class: Launching browser]]>
+    </line>
+    <line>
+      <![CDATA[Application opened: http://49.249.29.4:8888/index.php]]>
+    </line>
+    <line>
+      <![CDATA[Login form displayed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Login completed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Project Tasks page is accessible from More menu.]]>
+    </line>
+    <line>
+      <![CDATA[Project Tasks page opened.]]>
+    </line>
+    <line>
+      <![CDATA[Create Project Task form opened.]]>
+    </line>
+    <line>
+      <![CDATA[Task Name entered: Task_e4e5a21e]]>
+    </line>
+    <line>
+      <![CDATA[Related Project selected dynamically: Suekha]]>
+    </line>
+    <line>
+      <![CDATA[Project Task Save button clicked.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Navigation from Project Tasks list to related detail page verified for: Task_e4e5a21e]]>
+    </line>
+    <line>
+      <![CDATA[Warning: Could not read Excel test data, using dynamic fallback: Worksheet not found: 'Project Tasks'. Available sheets: [VTiger_Test_Requirement, VTiger_Test_Scenarios, VTiger_Test_Login&HomePage_Test, VTiger_Test_Service_Contacts_Te, VTiger_Test_FAQ_Test_Cases, VTiger_Test_Projects_Test_Cases, VTiger_Test_ProjectsTasks_Test_, VTiger_Test_ProjectMilestones_T, VTiger_ALL_Test_Cases, VTiger_Requirement_Traceability]]]>
+    </line>
+    <line>
+      <![CDATA[Project Tasks page opened.]]>
+    </line>
+    <line>
+      <![CDATA[Create Project Task form opened.]]>
+    </line>
+    <line>
+      <![CDATA[Task Name entered: QA_Task_Module5_a952b]]>
+    </line>
+    <line>
+      <![CDATA[Related Project selected dynamically: Suekha]]>
+    </line>
+    <line>
+      <![CDATA[Project Task Save button clicked.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Project Task created successfully: QA_Task_Module5_a952b (Related Project: Suekha)]]>
+    </line>
+    <line>
+      <![CDATA[Project Tasks page opened.]]>
+    </line>
+    <line>
+      <![CDATA[Create Project Task form opened.]]>
+    </line>
+    <line>
+      <![CDATA[Task Name entered: ]]>
+    </line>
+    <line>
+      <![CDATA[Project Task Save button clicked.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Task Name mandatory validation checked.]]>
+    </line>
+    <line>
+      <![CDATA[Project Tasks page opened.]]>
+    </line>
+    <line>
+      <![CDATA[Create Project Task form opened.]]>
+    </line>
+    <line>
+      <![CDATA[Task Name entered: Task_35915afe]]>
+    </line>
+    <line>
+      <![CDATA[Project Task Save button clicked.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Related Project mandatory validation checked.]]>
+    </line>
+    <line>
+      <![CDATA[After Class: Closing browser]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Before Class: Launching browser]]>
+    </line>
+    <line>
+      <![CDATA[Application opened: http://49.249.29.4:8888/index.php]]>
+    </line>
+    <line>
+      <![CDATA[Login form displayed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Login validation class detected. Automatic login skipped.]]>
+    </line>
+    <line>
+      <![CDATA[Login page opened successfully.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Login page controls and labels are visible and usable.]]>
+    </line>
+    <line>
+      <![CDATA[Login page opened successfully.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: User authenticated and VTiger Home page is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Home page navigation, Products, and Contacts modules are visible.]]>
+    </line>
+    <line>
+      <![CDATA[Logout clicked successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Login page opened successfully.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Invalid username was rejected.]]>
+    </line>
+    <line>
+      <![CDATA[Login page opened successfully.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Sign Out option is verified.]]>
+    </line>
+    <line>
+      <![CDATA[Logout clicked successfully.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Logout succeeded and user returned to login page.]]>
+    </line>
+    <line>
+      <![CDATA[After Class: Closing browser]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Before Class: Launching browser]]>
+    </line>
+    <line>
+      <![CDATA[Application opened: http://49.249.29.4:8888/index.php]]>
+    </line>
+    <line>
+      <![CDATA[Login form displayed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Login completed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Projects page is accessible from More menu.]]>
+    </line>
+    <line>
+      <![CDATA[Projects list opened: http://49.249.29.4:8888/index.php?module=Project&action=index]]>
+    </line>
+    <line>
+      <![CDATA[Create Project form opened.]]>
+    </line>
+    <line>
+      <![CDATA[Project Name entered: NavProj_da14d529]]>
+    </line>
+    <line>
+      <![CDATA[Save button clicked.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Navigation to project detail verified: NavProj_da14d529]]>
+    </line>
+    <line>
+      <![CDATA[Projects list opened: http://49.249.29.4:8888/index.php?module=Project&action=index]]>
+    </line>
+    <line>
+      <![CDATA[Create Project form opened.]]>
+    </line>
+    <line>
+      <![CDATA[Project Name entered: QAProj_480b1296]]>
+    </line>
+    <line>
+      <![CDATA[Save button clicked.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Created project with valid details: QAProj_480b1296]]>
+    </line>
+    <line>
+      <![CDATA[Projects list opened: http://49.249.29.4:8888/index.php?module=Project&action=index]]>
+    </line>
+    <line>
+      <![CDATA[Create Project form opened.]]>
+    </line>
+    <line>
+      <![CDATA[Project Name entered: SearchProj_97b8447b]]>
+    </line>
+    <line>
+      <![CDATA[Save button clicked.]]>
+    </line>
+    <line>
+      <![CDATA[Projects list opened: http://49.249.29.4:8888/index.php?module=Project&action=index]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Saved project found in search results: SearchProj_97b8447b]]>
+    </line>
+    <line>
+      <![CDATA[Projects list opened: http://49.249.29.4:8888/index.php?module=Project&action=index]]>
+    </line>
+    <line>
+      <![CDATA[Create Project form opened.]]>
+    </line>
+    <line>
+      <![CDATA[Project Name entered: ]]>
+    </line>
+    <line>
+      <![CDATA[Save button clicked.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Empty mandatory Project Name rejected as expected.]]>
+    </line>
+    <line>
+      <![CDATA[After Class: Closing browser]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Before Class: Launching browser]]>
+    </line>
+    <line>
+      <![CDATA[Application opened: http://49.249.29.4:8888/index.php]]>
+    </line>
+    <line>
+      <![CDATA[Login form displayed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Login completed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Service Contracts opened successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Service Contracts list opened.]]>
+    </line>
+    <line>
+      <![CDATA[Create Service Contract form opened.]]>
+    </line>
+    <line>
+      <![CDATA[Save button clicked.]]>
+    </line>
+    <line>
+      <![CDATA[Service Contracts list opened.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Navigation from list to Service Contract detail page verified.]]>
+    </line>
+    <line>
+      <![CDATA[Service Contracts list opened.]]>
+    </line>
+    <line>
+      <![CDATA[Create Service Contract form opened.]]>
+    </line>
+    <line>
+      <![CDATA[Save button clicked.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Service Contract created with Subject: Mukesh - Support Agreement 592fb]]>
+    </line>
+    <line>
+      <![CDATA[Service Contracts list opened.]]>
+    </line>
+    <line>
+      <![CDATA[Create Service Contract form opened.]]>
+    </line>
+    <line>
+      <![CDATA[Save button clicked.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Empty Subject mandatory validation verified.]]>
+    </line>
+    <line>
+      <![CDATA[Service Contracts list opened.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Nonexistent contract search returned no results.]]>
+    </line>
+    <line>
+      <![CDATA[After Class: Closing browser]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Before Class: Launching browser]]>
+    </line>
+    <line>
+      <![CDATA[Application opened: http://49.249.29.4:8888/index.php]]>
+    </line>
+    <line>
+      <![CDATA[Login form displayed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Login completed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Project Milestones opened from More menu.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: All expected milestone fields are visible and interactable.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Created milestone: Milestone_8557a5ae | Type: administrative | Project: Suekha]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Empty mandatory field validation caught successfully.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Mismatched search returned no records as expected.]]>
+    </line>
+    <line>
+      <![CDATA[After Class: Closing browser]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Before Class: Launching browser]]>
+    </line>
+    <line>
+      <![CDATA[Application opened: http://49.249.29.4:8888/index.php]]>
+    </line>
+    <line>
+      <![CDATA[Login form displayed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Login completed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: FAQ list page opened successfully.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: FAQ navigation via More menu verified.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: New FAQ form displayed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: FAQ created successfully: How can a customer update their portal password? 0509d]]>
+    </line>
+    <line>
+      <![CDATA[PASS: FAQ search by Question verified.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: FAQ edit and delete verified.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Mandatory field validation alert: Question cannot be none]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Mismatched search returned no records as expected.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Basic FAQ creation flow verified.]]>
+    </line>
+    <line>
+      <![CDATA[PASS: End-to-end FAQ creation, search, and detail verification completed.]]>
+    </line>
+    <line>
+      <![CDATA[After Class: Closing browser]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[After Test: Test execution completed]]>
+    </line>
+    <line>
+      <![CDATA[After Suite: Cleanup completed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-10-22T12:06:14 IST" name="Suite" finished-at="2026-10-22T12:24:36 IST" duration-ms="1102566">
+    <groups>
+      <group name="Functional">
+        <method signature="CRM_Vtiger_BITM_LoginHomePage_Test.verifyLoginWithValidCredentialsTest()[pri:2, instance:CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test@131ef10]" name="verifyLoginWithValidCredentialsTest" class="CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test"/>
+        <method signature="CRM_Vtiger_BITM_LoginHomePage_Test.verifyHomePageElementsVisibilityTest()[pri:3, instance:CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test@131ef10]" name="verifyHomePageElementsVisibilityTest" class="CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test"/>
+        <method signature="CRM_Vtiger_BITM_ProjectMilestonesTest.createProjectMilestoneWithValidDetailsTest()[pri:3, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@2df3b89c]" name="createProjectMilestoneWithValidDetailsTest" class="CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectTasksTest.createProjectTaskWithValidDetailsTest()[pri:3, instance:CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@24313fcc]" name="createProjectTaskWithValidDetailsTest" class="CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectsTest.createProjectWithValidDetailsTest()[pri:3, instance:CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest@55b0dcab]" name="createProjectWithValidDetailsTest" class="CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest"/>
+        <method signature="CRM_Vtiger_BITM_ServiceContractsTest.createServiceContractWithExcelDataTest()[pri:3, instance:CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest@38afe297]" name="createServiceContractWithExcelDataTest" class="CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest"/>
+        <method signature="CRM_Vtiger_BITM_FAQTest.createNewFAQTest()[pri:4, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@23348b5d]" name="createNewFAQTest" class="CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectsTest.searchSavedProjectByNameTest()[pri:4, instance:CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest@55b0dcab]" name="searchSavedProjectByNameTest" class="CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest"/>
+        <method signature="CRM_Vtiger_BITM_FAQTest.searchFAQByQuestionTest()[pri:5, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@23348b5d]" name="searchFAQByQuestionTest" class="CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest"/>
+        <method signature="CRM_Vtiger_BITM_FAQTest.editAndDeleteFAQTest()[pri:6, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@23348b5d]" name="editAndDeleteFAQTest" class="CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest"/>
+        <method signature="CRM_Vtiger_BITM_FAQTest.basicFAQCreationSmokeFlowTest()[pri:9, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@23348b5d]" name="basicFAQCreationSmokeFlowTest" class="CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest"/>
+      </group> <!-- Functional -->
+      <group name="Integration">
+        <method signature="CRM_Vtiger_BITM_ProjectTasksTest.verifyNavigationFromListToTaskDetailTest()[pri:2, instance:CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@24313fcc]" name="verifyNavigationFromListToTaskDetailTest" class="CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectsTest.verifyNavigationFromListToProjectDetailTest()[pri:2, instance:CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest@55b0dcab]" name="verifyNavigationFromListToProjectDetailTest" class="CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest"/>
+        <method signature="CRM_Vtiger_BITM_ServiceContractsTest.verifyNavigationToServiceContractDetailTest()[pri:2, instance:CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest@38afe297]" name="verifyNavigationToServiceContractDetailTest" class="CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest"/>
+      </group> <!-- Integration -->
+      <group name="Negative">
+        <method signature="CRM_Vtiger_BITM_LoginHomePage_Test.verifyLoginWithInvalidUsernameTest()[pri:4, instance:CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test@131ef10]" name="verifyLoginWithInvalidUsernameTest" class="CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test"/>
+        <method signature="CRM_Vtiger_BITM_ProjectMilestonesTest.verifyMandatoryFieldsValidationTest()[pri:4, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@2df3b89c]" name="verifyMandatoryFieldsValidationTest" class="CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectTasksTest.verifyTaskNameMandatoryValidationTest()[pri:4, instance:CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@24313fcc]" name="verifyTaskNameMandatoryValidationTest" class="CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest"/>
+        <method signature="CRM_Vtiger_BITM_ServiceContractsTest.verifyEmptySubjectMandatoryValidationTest()[pri:4, instance:CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest@38afe297]" name="verifyEmptySubjectMandatoryValidationTest" class="CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectMilestonesTest.verifyMilestoneSearchMismatchedFilterTest()[pri:5, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@2df3b89c]" name="verifyMilestoneSearchMismatchedFilterTest" class="CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectTasksTest.verifyRelatedProjectMandatoryValidationTest()[pri:5, instance:CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@24313fcc]" name="verifyRelatedProjectMandatoryValidationTest" class="CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectsTest.verifyMandatoryFieldsValidationTest()[pri:5, instance:CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest@55b0dcab]" name="verifyMandatoryFieldsValidationTest" class="CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest"/>
+        <method signature="CRM_Vtiger_BITM_ServiceContractsTest.verifySearchWithNonexistentContractNumberTest()[pri:5, instance:CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest@38afe297]" name="verifySearchWithNonexistentContractNumberTest" class="CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest"/>
+        <method signature="CRM_Vtiger_BITM_FAQTest.verifyMandatoryFieldsValidationTest()[pri:7, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@23348b5d]" name="verifyMandatoryFieldsValidationTest" class="CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest"/>
+        <method signature="CRM_Vtiger_BITM_FAQTest.verifyFAQSearchMismatchedCategoryTest()[pri:8, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@23348b5d]" name="verifyFAQSearchMismatchedCategoryTest" class="CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest"/>
+      </group> <!-- Negative -->
+      <group name="UI">
+        <method signature="CRM_Vtiger_BITM_LoginHomePage_Test.verifyLoginPageElementsVisibilityTest()[pri:1, instance:CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test@131ef10]" name="verifyLoginPageElementsVisibilityTest" class="CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test"/>
+        <method signature="CRM_Vtiger_BITM_ProjectMilestonesTest.verifyAllExpectedFieldsVisibleTest()[pri:2, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@2df3b89c]" name="verifyAllExpectedFieldsVisibleTest" class="CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest"/>
+        <method signature="CRM_Vtiger_BITM_FAQTest.verifyCreateFAQFormDisplaysTest()[pri:3, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@23348b5d]" name="verifyCreateFAQFormDisplaysTest" class="CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest"/>
+        <method signature="CRM_Vtiger_BITM_LoginHomePage_Test.verifyHomePageElementsVisibilityTest()[pri:3, instance:CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test@131ef10]" name="verifyHomePageElementsVisibilityTest" class="CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test"/>
+      </group> <!-- UI -->
+      <group name="Regression">
+        <method signature="CRM_Vtiger_BITM_LoginHomePage_Test.verifyLogoutOptionVisibilityAndLogoutTest()[pri:5, instance:CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test@131ef10]" name="verifyLogoutOptionVisibilityAndLogoutTest" class="CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="CRM_Vtiger_BITM_FAQTest.verifyFAQPageTest()[pri:1, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@23348b5d]" name="verifyFAQPageTest" class="CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest"/>
+        <method signature="CRM_Vtiger_BITM_LoginHomePage_Test.verifyLoginPageElementsVisibilityTest()[pri:1, instance:CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test@131ef10]" name="verifyLoginPageElementsVisibilityTest" class="CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test"/>
+        <method signature="CRM_Vtiger_BITM_ProjectMilestonesTest.verifyProjectMilestonesInMoreMenuTest()[pri:1, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@2df3b89c]" name="verifyProjectMilestonesInMoreMenuTest" class="CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectTasksTest.verifyProjectTasksInMoreMenuTest()[pri:1, instance:CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@24313fcc]" name="verifyProjectTasksInMoreMenuTest" class="CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest"/>
+        <method signature="CRM_Vtiger_BITM_ProjectsTest.verifyProjectsInMoreMenuTest()[pri:1, instance:CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest@55b0dcab]" name="verifyProjectsInMoreMenuTest" class="CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest"/>
+        <method signature="CRM_Vtiger_BITM_ServiceContractsTest.verifyServiceContractsInMoreMenuTest()[pri:1, instance:CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest@38afe297]" name="verifyServiceContractsInMoreMenuTest" class="CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest"/>
+        <method signature="CRM_Vtiger_BITM_FAQTest.verifyFAQInMoreMenuTest()[pri:2, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@23348b5d]" name="verifyFAQInMoreMenuTest" class="CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest"/>
+        <method signature="CRM_Vtiger_BITM_LoginHomePage_Test.verifyLoginWithValidCredentialsTest()[pri:2, instance:CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test@131ef10]" name="verifyLoginWithValidCredentialsTest" class="CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test"/>
+      </group> <!-- Smoke -->
+      <group name="System">
+        <method signature="CRM_Vtiger_BITM_FAQTest.endToEndFAQTest()[pri:10, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@23348b5d]" name="endToEndFAQTest" class="CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest"/>
+      </group> <!-- System -->
+    </groups>
+    <test started-at="2026-10-22T12:06:14 IST" name="Test" finished-at="2026-10-22T12:24:36 IST" duration-ms="1102566">
+      <class name="CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test">
+        <test-method is-config="true" signature="navigateToApp(java.lang.String)[pri:0, instance:CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test@131ef10]" started-at="2026-10-22T12:08:51 IST" name="navigateToApp" finished-at="2026-10-22T12:09:01 IST" duration-ms="9613" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Class: Launching browser]]>
+            </line>
+            <line>
+              <![CDATA[Application opened: http://49.249.29.4:8888/index.php]]>
+            </line>
+            <line>
+              <![CDATA[Login form displayed successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Login validation class detected. Automatic login skipped.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- navigateToApp -->
+        <test-method signature="verifyLoginPageElementsVisibilityTest()[pri:1, instance:CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test@131ef10]" started-at="2026-10-22T12:09:01 IST" name="verifyLoginPageElementsVisibilityTest" description="TC-VT-LOGIN-02: Verify login page elements visibility" finished-at="2026-10-22T12:09:16 IST" duration-ms="15832" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page opened successfully.]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Login page controls and labels are visible and usable.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageElementsVisibilityTest -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test@131ef10]" started-at="2026-10-22T12:09:16 IST" name="captureScreenshotOnFailure" finished-at="2026-10-22T12:09:16 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginPageElementsVisibilityTest status=SUCCESS method=CRM_Vtiger_BITM_LoginHomePage_Test.verifyLoginPageElementsVisibilityTest()[pri:1, instance:CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test@131ef10] output=Login page opened successfully.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="verifyLoginWithValidCredentialsTest()[pri:2, instance:CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test@131ef10]" started-at="2026-10-22T12:09:16 IST" name="verifyLoginWithValidCredentialsTest" description="TC-VT-LOGIN-01: Verify login with valid credentials" finished-at="2026-10-22T12:11:21 IST" duration-ms="124395" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page opened successfully.]]>
+            </line>
+            <line>
+              <![CDATA[PASS: User authenticated and VTiger Home page is displayed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentialsTest -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test@131ef10]" started-at="2026-10-22T12:11:21 IST" name="captureScreenshotOnFailure" finished-at="2026-10-22T12:11:21 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginWithValidCredentialsTest status=SUCCESS method=CRM_Vtiger_BITM_LoginHomePage_Test.verifyLoginWithValidCredentialsTest()[pri:2, instance:CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test@131ef10] output=Login page opened successfully.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="verifyHomePageElementsVisibilityTest()[pri:3, instance:CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test@131ef10]" started-at="2026-10-22T12:11:21 IST" name="verifyHomePageElementsVisibilityTest" description="TC-VT-LOGIN-03: Verify home page elements visibility" finished-at="2026-10-22T12:11:21 IST" duration-ms="469" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: Home page navigation, Products, and Contacts modules are visible.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageElementsVisibilityTest -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test@131ef10]" started-at="2026-10-22T12:11:21 IST" name="captureScreenshotOnFailure" finished-at="2026-10-22T12:11:21 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHomePageElementsVisibilityTest status=SUCCESS method=CRM_Vtiger_BITM_LoginHomePage_Test.verifyHomePageElementsVisibilityTest()[pri:3, instance:CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test@131ef10] output=PASS: Home page navigation, Products, and Contacts modules are visible.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="verifyLoginWithInvalidUsernameTest()[pri:4, instance:CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test@131ef10]" started-at="2026-10-22T12:11:21 IST" name="verifyLoginWithInvalidUsernameTest" description="TC-VT-LOGIN-04: Verify login with invalid username" finished-at="2026-10-22T12:11:41 IST" duration-ms="19141" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout clicked successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Login page opened successfully.]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Invalid username was rejected.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidUsernameTest -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test@131ef10]" started-at="2026-10-22T12:11:41 IST" name="captureScreenshotOnFailure" finished-at="2026-10-22T12:11:41 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginWithInvalidUsernameTest status=SUCCESS method=CRM_Vtiger_BITM_LoginHomePage_Test.verifyLoginWithInvalidUsernameTest()[pri:4, instance:CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test@131ef10] output=Logout clicked successfully.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="verifyLogoutOptionVisibilityAndLogoutTest()[pri:5, instance:CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test@131ef10]" started-at="2026-10-22T12:11:41 IST" name="verifyLogoutOptionVisibilityAndLogoutTest" description="TC-VT-LOGIN-08: Verify navigation from Login page to Home page and verify logout options" finished-at="2026-10-22T12:13:06 IST" duration-ms="85303" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page opened successfully.]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Sign Out option is verified.]]>
+            </line>
+            <line>
+              <![CDATA[Logout clicked successfully.]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Logout succeeded and user returned to login page.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutOptionVisibilityAndLogoutTest -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test@131ef10]" started-at="2026-10-22T12:13:06 IST" name="captureScreenshotOnFailure" finished-at="2026-10-22T12:13:06 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogoutOptionVisibilityAndLogoutTest status=SUCCESS method=CRM_Vtiger_BITM_LoginHomePage_Test.verifyLogoutOptionVisibilityAndLogoutTest()[pri:5, instance:CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test@131ef10] output=Login page opened successfully.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test@131ef10]" started-at="2026-10-22T12:13:06 IST" name="closeBrowser" finished-at="2026-10-22T12:13:06 IST" duration-ms="664" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Class: Closing browser]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test -->
+      <class name="CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest">
+        <test-method is-config="true" signature="dbConnection()[pri:0, instance:CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@24313fcc]" started-at="2026-10-22T12:06:14 IST" name="dbConnection" finished-at="2026-10-22T12:06:14 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Suite: Setup started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dbConnection -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@24313fcc]" started-at="2026-10-22T12:06:14 IST" name="beforeTest" finished-at="2026-10-22T12:06:14 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Test: Test execution started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="navigateToApp(java.lang.String)[pri:0, instance:CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@24313fcc]" started-at="2026-10-22T12:06:14 IST" name="navigateToApp" finished-at="2026-10-22T12:07:31 IST" duration-ms="76876" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Class: Launching browser]]>
+            </line>
+            <line>
+              <![CDATA[Application opened: http://49.249.29.4:8888/index.php]]>
+            </line>
+            <line>
+              <![CDATA[Login form displayed successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Login completed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- navigateToApp -->
+        <test-method signature="verifyProjectTasksInMoreMenuTest()[pri:1, instance:CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@24313fcc]" started-at="2026-10-22T12:07:31 IST" name="verifyProjectTasksInMoreMenuTest" description="TC-VT-PT-06: Verify Project Tasks is visible under the More menu" finished-at="2026-10-22T12:08:09 IST" duration-ms="38044" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: Project Tasks page is accessible from More menu.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProjectTasksInMoreMenuTest -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@24313fcc]" started-at="2026-10-22T12:08:09 IST" name="captureScreenshotOnFailure" finished-at="2026-10-22T12:08:09 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyProjectTasksInMoreMenuTest status=SUCCESS method=CRM_Vtiger_BITM_ProjectTasksTest.verifyProjectTasksInMoreMenuTest()[pri:1, instance:CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@24313fcc] output=PASS: Project Tasks page is accessible from More menu.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="verifyNavigationFromListToTaskDetailTest()[pri:2, instance:CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@24313fcc]" started-at="2026-10-22T12:08:09 IST" name="verifyNavigationFromListToTaskDetailTest" description="TC-VT-PT-09: Verify navigation from Project Tasks to its related page" finished-at="2026-10-22T12:08:32 IST" duration-ms="23629" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Project Tasks page opened.]]>
+            </line>
+            <line>
+              <![CDATA[Create Project Task form opened.]]>
+            </line>
+            <line>
+              <![CDATA[Task Name entered: Task_e4e5a21e]]>
+            </line>
+            <line>
+              <![CDATA[Related Project selected dynamically: Suekha]]>
+            </line>
+            <line>
+              <![CDATA[Project Task Save button clicked.]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Navigation from Project Tasks list to related detail page verified for: Task_e4e5a21e]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyNavigationFromListToTaskDetailTest -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@24313fcc]" started-at="2026-10-22T12:08:32 IST" name="captureScreenshotOnFailure" finished-at="2026-10-22T12:08:32 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyNavigationFromListToTaskDetailTest status=SUCCESS method=CRM_Vtiger_BITM_ProjectTasksTest.verifyNavigationFromListToTaskDetailTest()[pri:2, instance:CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@24313fcc] output=Project Tasks page opened.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="createProjectTaskWithValidDetailsTest()[pri:3, instance:CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@24313fcc]" started-at="2026-10-22T12:08:32 IST" name="createProjectTaskWithValidDetailsTest" description="TC-VT-PT-01: Verify creation of a new Project Task with valid details" finished-at="2026-10-22T12:08:44 IST" duration-ms="11380" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Warning: Could not read Excel test data, using dynamic fallback: Worksheet not found: 'Project Tasks'. Available sheets: [VTiger_Test_Requirement, VTiger_Test_Scenarios, VTiger_Test_Login&HomePage_Test, VTiger_Test_Service_Contacts_Te, VTiger_Test_FAQ_Test_Cases, VTiger_Test_Projects_Test_Cases, VTiger_Test_ProjectsTasks_Test_, VTiger_Test_ProjectMilestones_T, VTiger_ALL_Test_Cases, VTiger_Requirement_Traceability]]]>
+            </line>
+            <line>
+              <![CDATA[Project Tasks page opened.]]>
+            </line>
+            <line>
+              <![CDATA[Create Project Task form opened.]]>
+            </line>
+            <line>
+              <![CDATA[Task Name entered: QA_Task_Module5_a952b]]>
+            </line>
+            <line>
+              <![CDATA[Related Project selected dynamically: Suekha]]>
+            </line>
+            <line>
+              <![CDATA[Project Task Save button clicked.]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Project Task created successfully: QA_Task_Module5_a952b (Related Project: Suekha)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createProjectTaskWithValidDetailsTest -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@24313fcc]" started-at="2026-10-22T12:08:44 IST" name="captureScreenshotOnFailure" finished-at="2026-10-22T12:08:44 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createProjectTaskWithValidDetailsTest status=SUCCESS method=CRM_Vtiger_BITM_ProjectTasksTest.createProjectTaskWithValidDetailsTest()[pri:3, instance:CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@24313fcc] output=Warning: Could not read Excel test data, using dynamic fallback: Worksheet not found: 'Project Tasks'. Available sheets: [VTiger_Test_Requirement, VTiger_Test_Scenarios, VTiger_Test_Login&HomePage_Test, VTiger_Test_Service_Contacts_Te, VTiger_Test_FAQ_Test_Cases, VTiger_Test_Projects_Test_Cases, VTiger_Test_ProjectsTasks_Test_, VTiger_Test_ProjectMilestones_T, VTiger_ALL_Test_Cases, VTiger_Requirement_Traceability]]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="verifyTaskNameMandatoryValidationTest()[pri:4, instance:CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@24313fcc]" started-at="2026-10-22T12:08:44 IST" name="verifyTaskNameMandatoryValidationTest" description="TC-VT-PT-07: Verify Task Name mandatory validation" finished-at="2026-10-22T12:08:47 IST" duration-ms="3366" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Project Tasks page opened.]]>
+            </line>
+            <line>
+              <![CDATA[Create Project Task form opened.]]>
+            </line>
+            <line>
+              <![CDATA[Task Name entered: ]]>
+            </line>
+            <line>
+              <![CDATA[Project Task Save button clicked.]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Task Name mandatory validation checked.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTaskNameMandatoryValidationTest -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@24313fcc]" started-at="2026-10-22T12:08:47 IST" name="captureScreenshotOnFailure" finished-at="2026-10-22T12:08:47 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTaskNameMandatoryValidationTest status=SUCCESS method=CRM_Vtiger_BITM_ProjectTasksTest.verifyTaskNameMandatoryValidationTest()[pri:4, instance:CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@24313fcc] output=Project Tasks page opened.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="verifyRelatedProjectMandatoryValidationTest()[pri:5, instance:CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@24313fcc]" started-at="2026-10-22T12:08:47 IST" name="verifyRelatedProjectMandatoryValidationTest" description="TC-VT-PT-07: Verify Related Project mandatory validation" finished-at="2026-10-22T12:08:50 IST" duration-ms="3388" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Project Tasks page opened.]]>
+            </line>
+            <line>
+              <![CDATA[Create Project Task form opened.]]>
+            </line>
+            <line>
+              <![CDATA[Task Name entered: Task_35915afe]]>
+            </line>
+            <line>
+              <![CDATA[Project Task Save button clicked.]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Related Project mandatory validation checked.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyRelatedProjectMandatoryValidationTest -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@24313fcc]" started-at="2026-10-22T12:08:50 IST" name="captureScreenshotOnFailure" finished-at="2026-10-22T12:08:50 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyRelatedProjectMandatoryValidationTest status=SUCCESS method=CRM_Vtiger_BITM_ProjectTasksTest.verifyRelatedProjectMandatoryValidationTest()[pri:5, instance:CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@24313fcc] output=Project Tasks page opened.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@24313fcc]" started-at="2026-10-22T12:08:50 IST" name="closeBrowser" finished-at="2026-10-22T12:08:51 IST" duration-ms="549" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Class: Closing browser]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@24313fcc]" started-at="2026-10-22T12:24:36 IST" name="afterTest" finished-at="2026-10-22T12:24:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Test: Test execution completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="closeConnection()[pri:0, instance:CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest@24313fcc]" started-at="2026-10-22T12:24:36 IST" name="closeConnection" finished-at="2026-10-22T12:24:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Suite: Cleanup completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeConnection -->
+      </class> <!-- CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest -->
+      <class name="CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest">
+        <test-method is-config="true" signature="navigateToApp(java.lang.String)[pri:0, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@23348b5d]" started-at="2026-10-22T12:20:26 IST" name="navigateToApp" finished-at="2026-10-22T12:22:55 IST" duration-ms="148859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Class: Launching browser]]>
+            </line>
+            <line>
+              <![CDATA[Application opened: http://49.249.29.4:8888/index.php]]>
+            </line>
+            <line>
+              <![CDATA[Login form displayed successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Login completed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- navigateToApp -->
+        <test-method signature="verifyFAQPageTest()[pri:1, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@23348b5d]" started-at="2026-10-22T12:22:55 IST" name="verifyFAQPageTest" description="TC-VT-FAQ-08: Verify navigation to FAQ list page" finished-at="2026-10-22T12:22:57 IST" duration-ms="2623" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: FAQ list page opened successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyFAQPageTest -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@23348b5d]" started-at="2026-10-22T12:22:57 IST" name="captureScreenshotOnFailure" finished-at="2026-10-22T12:22:57 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFAQPageTest status=SUCCESS method=CRM_Vtiger_BITM_FAQTest.verifyFAQPageTest()[pri:1, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@23348b5d] output=PASS: FAQ list page opened successfully.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="verifyFAQInMoreMenuTest()[pri:2, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@23348b5d]" started-at="2026-10-22T12:22:57 IST" name="verifyFAQInMoreMenuTest" description="TC-VT-FAQ-05: Verify FAQ visibility under Support in More menu" finished-at="2026-10-22T12:23:30 IST" duration-ms="32423" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: FAQ navigation via More menu verified.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyFAQInMoreMenuTest -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@23348b5d]" started-at="2026-10-22T12:23:30 IST" name="captureScreenshotOnFailure" finished-at="2026-10-22T12:23:30 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFAQInMoreMenuTest status=SUCCESS method=CRM_Vtiger_BITM_FAQTest.verifyFAQInMoreMenuTest()[pri:2, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@23348b5d] output=PASS: FAQ navigation via More menu verified.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="verifyCreateFAQFormDisplaysTest()[pri:3, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@23348b5d]" started-at="2026-10-22T12:23:30 IST" name="verifyCreateFAQFormDisplaysTest" description="TC-VT-FAQ-09: Verify + icon opens New FAQ details form" finished-at="2026-10-22T12:23:39 IST" duration-ms="8732" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: New FAQ form displayed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCreateFAQFormDisplaysTest -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@23348b5d]" started-at="2026-10-22T12:23:39 IST" name="captureScreenshotOnFailure" finished-at="2026-10-22T12:23:39 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCreateFAQFormDisplaysTest status=SUCCESS method=CRM_Vtiger_BITM_FAQTest.verifyCreateFAQFormDisplaysTest()[pri:3, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@23348b5d] output=PASS: New FAQ form displayed successfully.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="createNewFAQTest()[pri:4, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@23348b5d]" started-at="2026-10-22T12:23:39 IST" name="createNewFAQTest" description="TC-VT-FAQ-01: Verify creation of a new FAQ" finished-at="2026-10-22T12:23:50 IST" duration-ms="11531" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: FAQ created successfully: How can a customer update their portal password? 0509d]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createNewFAQTest -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@23348b5d]" started-at="2026-10-22T12:23:50 IST" name="captureScreenshotOnFailure" finished-at="2026-10-22T12:23:50 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createNewFAQTest status=SUCCESS method=CRM_Vtiger_BITM_FAQTest.createNewFAQTest()[pri:4, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@23348b5d] output=PASS: FAQ created successfully: How can a customer update their portal password? 0509d]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="searchFAQByQuestionTest()[pri:5, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@23348b5d]" started-at="2026-10-22T12:23:50 IST" name="searchFAQByQuestionTest" description="TC-VT-FAQ-02: Verify saved FAQ using question/subject search" finished-at="2026-10-22T12:23:58 IST" duration-ms="7521" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: FAQ search by Question verified.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchFAQByQuestionTest -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@23348b5d]" started-at="2026-10-22T12:23:58 IST" name="captureScreenshotOnFailure" finished-at="2026-10-22T12:23:58 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchFAQByQuestionTest status=SUCCESS method=CRM_Vtiger_BITM_FAQTest.searchFAQByQuestionTest()[pri:5, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@23348b5d] output=PASS: FAQ search by Question verified.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="editAndDeleteFAQTest()[pri:6, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@23348b5d]" started-at="2026-10-22T12:23:58 IST" name="editAndDeleteFAQTest" description="TC-VT-FAQ-03: Verify editing and deleting a created FAQ" finished-at="2026-10-22T12:24:19 IST" duration-ms="21458" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: FAQ edit and delete verified.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- editAndDeleteFAQTest -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@23348b5d]" started-at="2026-10-22T12:24:19 IST" name="captureScreenshotOnFailure" finished-at="2026-10-22T12:24:19 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=editAndDeleteFAQTest status=SUCCESS method=CRM_Vtiger_BITM_FAQTest.editAndDeleteFAQTest()[pri:6, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@23348b5d] output=PASS: FAQ edit and delete verified.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="verifyMandatoryFieldsValidationTest()[pri:7, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@23348b5d]" started-at="2026-10-22T12:24:19 IST" name="verifyMandatoryFieldsValidationTest" description="TC-VT-FAQ-06: Verify mandatory-field validation when saving an empty FAQ" finished-at="2026-10-22T12:24:21 IST" duration-ms="2386" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: Mandatory field validation alert: Question cannot be none]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyMandatoryFieldsValidationTest -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@23348b5d]" started-at="2026-10-22T12:24:21 IST" name="captureScreenshotOnFailure" finished-at="2026-10-22T12:24:21 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMandatoryFieldsValidationTest status=SUCCESS method=CRM_Vtiger_BITM_FAQTest.verifyMandatoryFieldsValidationTest()[pri:7, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@23348b5d] output=PASS: Mandatory field validation alert: Question cannot be none]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="verifyFAQSearchMismatchedCategoryTest()[pri:8, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@23348b5d]" started-at="2026-10-22T12:24:21 IST" name="verifyFAQSearchMismatchedCategoryTest" description="TC-VT-FAQ-07: Verify FAQ search using a different category" finished-at="2026-10-22T12:24:24 IST" duration-ms="2148" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: Mismatched search returned no records as expected.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyFAQSearchMismatchedCategoryTest -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@23348b5d]" started-at="2026-10-22T12:24:24 IST" name="captureScreenshotOnFailure" finished-at="2026-10-22T12:24:24 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFAQSearchMismatchedCategoryTest status=SUCCESS method=CRM_Vtiger_BITM_FAQTest.verifyFAQSearchMismatchedCategoryTest()[pri:8, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@23348b5d] output=PASS: Mismatched search returned no records as expected.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="basicFAQCreationSmokeFlowTest()[pri:9, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@23348b5d]" started-at="2026-10-22T12:24:24 IST" name="basicFAQCreationSmokeFlowTest" description="TC-VT-FAQ-10: Verify basic FAQ creation flow" finished-at="2026-10-22T12:24:28 IST" duration-ms="4467" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: Basic FAQ creation flow verified.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- basicFAQCreationSmokeFlowTest -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@23348b5d]" started-at="2026-10-22T12:24:28 IST" name="captureScreenshotOnFailure" finished-at="2026-10-22T12:24:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=basicFAQCreationSmokeFlowTest status=SUCCESS method=CRM_Vtiger_BITM_FAQTest.basicFAQCreationSmokeFlowTest()[pri:9, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@23348b5d] output=PASS: Basic FAQ creation flow verified.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="endToEndFAQTest()[pri:10, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@23348b5d]" started-at="2026-10-22T12:24:28 IST" name="endToEndFAQTest" description="TC-VT-FAQ-11: Verify end-to-end FAQ creation, search, and details validation" finished-at="2026-10-22T12:24:36 IST" duration-ms="7714" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: End-to-end FAQ creation, search, and detail verification completed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- endToEndFAQTest -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@23348b5d]" started-at="2026-10-22T12:24:36 IST" name="captureScreenshotOnFailure" finished-at="2026-10-22T12:24:36 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=endToEndFAQTest status=SUCCESS method=CRM_Vtiger_BITM_FAQTest.endToEndFAQTest()[pri:10, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@23348b5d] output=PASS: End-to-end FAQ creation, search, and detail verification completed.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest@23348b5d]" started-at="2026-10-22T12:24:36 IST" name="closeBrowser" finished-at="2026-10-22T12:24:36 IST" duration-ms="415" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Class: Closing browser]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest -->
+      <class name="CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest">
+        <test-method is-config="true" signature="navigateToApp(java.lang.String)[pri:0, instance:CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest@38afe297]" started-at="2026-10-22T12:15:16 IST" name="navigateToApp" finished-at="2026-10-22T12:16:19 IST" duration-ms="63101" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Class: Launching browser]]>
+            </line>
+            <line>
+              <![CDATA[Application opened: http://49.249.29.4:8888/index.php]]>
+            </line>
+            <line>
+              <![CDATA[Login form displayed successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Login completed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- navigateToApp -->
+        <test-method signature="verifyServiceContractsInMoreMenuTest()[pri:1, instance:CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest@38afe297]" started-at="2026-10-22T12:16:19 IST" name="verifyServiceContractsInMoreMenuTest" description="TC-VT-SC-05: Verify Service Contracts visibility under Support in More menu" finished-at="2026-10-22T12:16:52 IST" duration-ms="32815" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: Service Contracts opened successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyServiceContractsInMoreMenuTest -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest@38afe297]" started-at="2026-10-22T12:16:52 IST" name="captureScreenshotOnFailure" finished-at="2026-10-22T12:16:52 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyServiceContractsInMoreMenuTest status=SUCCESS method=CRM_Vtiger_BITM_ServiceContractsTest.verifyServiceContractsInMoreMenuTest()[pri:1, instance:CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest@38afe297] output=PASS: Service Contracts opened successfully.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="verifyNavigationToServiceContractDetailTest()[pri:2, instance:CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest@38afe297]" started-at="2026-10-22T12:16:52 IST" name="verifyNavigationToServiceContractDetailTest" description="TC-VT-SC-01: Verify navigation to create and view Service Contract details" finished-at="2026-10-22T12:17:17 IST" duration-ms="25162" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Service Contracts list opened.]]>
+            </line>
+            <line>
+              <![CDATA[Create Service Contract form opened.]]>
+            </line>
+            <line>
+              <![CDATA[Save button clicked.]]>
+            </line>
+            <line>
+              <![CDATA[Service Contracts list opened.]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Navigation from list to Service Contract detail page verified.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyNavigationToServiceContractDetailTest -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest@38afe297]" started-at="2026-10-22T12:17:17 IST" name="captureScreenshotOnFailure" finished-at="2026-10-22T12:17:17 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyNavigationToServiceContractDetailTest status=SUCCESS method=CRM_Vtiger_BITM_ServiceContractsTest.verifyNavigationToServiceContractDetailTest()[pri:2, instance:CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest@38afe297] output=Service Contracts list opened.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="createServiceContractWithExcelDataTest()[pri:3, instance:CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest@38afe297]" started-at="2026-10-22T12:17:17 IST" name="createServiceContractWithExcelDataTest" description="TC-VT-SC-10: Verify basic Service Contract creation flow" finished-at="2026-10-22T12:17:36 IST" duration-ms="19056" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Service Contracts list opened.]]>
+            </line>
+            <line>
+              <![CDATA[Create Service Contract form opened.]]>
+            </line>
+            <line>
+              <![CDATA[Save button clicked.]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Service Contract created with Subject: Mukesh - Support Agreement 592fb]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createServiceContractWithExcelDataTest -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest@38afe297]" started-at="2026-10-22T12:17:36 IST" name="captureScreenshotOnFailure" finished-at="2026-10-22T12:17:36 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createServiceContractWithExcelDataTest status=SUCCESS method=CRM_Vtiger_BITM_ServiceContractsTest.createServiceContractWithExcelDataTest()[pri:3, instance:CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest@38afe297] output=Service Contracts list opened.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="verifyEmptySubjectMandatoryValidationTest()[pri:4, instance:CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest@38afe297]" started-at="2026-10-22T12:17:36 IST" name="verifyEmptySubjectMandatoryValidationTest" description="TC-VT-SC-06: Verify mandatory-field validation when saving an empty contract" finished-at="2026-10-22T12:17:43 IST" duration-ms="6982" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Service Contracts list opened.]]>
+            </line>
+            <line>
+              <![CDATA[Create Service Contract form opened.]]>
+            </line>
+            <line>
+              <![CDATA[Save button clicked.]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Empty Subject mandatory validation verified.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyEmptySubjectMandatoryValidationTest -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest@38afe297]" started-at="2026-10-22T12:17:43 IST" name="captureScreenshotOnFailure" finished-at="2026-10-22T12:17:43 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyEmptySubjectMandatoryValidationTest status=SUCCESS method=CRM_Vtiger_BITM_ServiceContractsTest.verifyEmptySubjectMandatoryValidationTest()[pri:4, instance:CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest@38afe297] output=Service Contracts list opened.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="verifySearchWithNonexistentContractNumberTest()[pri:5, instance:CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest@38afe297]" started-at="2026-10-22T12:17:43 IST" name="verifySearchWithNonexistentContractNumberTest" description="TC-VT-SC-07: Verify search returns no results for mismatched contract query" finished-at="2026-10-22T12:17:48 IST" duration-ms="5714" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Service Contracts list opened.]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Nonexistent contract search returned no results.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithNonexistentContractNumberTest -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest@38afe297]" started-at="2026-10-22T12:17:48 IST" name="captureScreenshotOnFailure" finished-at="2026-10-22T12:17:48 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySearchWithNonexistentContractNumberTest status=SUCCESS method=CRM_Vtiger_BITM_ServiceContractsTest.verifySearchWithNonexistentContractNumberTest()[pri:5, instance:CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest@38afe297] output=Service Contracts list opened.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest@38afe297]" started-at="2026-10-22T12:17:48 IST" name="closeBrowser" finished-at="2026-10-22T12:17:49 IST" duration-ms="589" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Class: Closing browser]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest -->
+      <class name="CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest">
+        <test-method is-config="true" signature="navigateToApp(java.lang.String)[pri:0, instance:CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest@55b0dcab]" started-at="2026-10-22T12:13:06 IST" name="navigateToApp" finished-at="2026-10-22T12:14:04 IST" duration-ms="57178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Class: Launching browser]]>
+            </line>
+            <line>
+              <![CDATA[Application opened: http://49.249.29.4:8888/index.php]]>
+            </line>
+            <line>
+              <![CDATA[Login form displayed successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Login completed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- navigateToApp -->
+        <test-method signature="verifyProjectsInMoreMenuTest()[pri:1, instance:CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest@55b0dcab]" started-at="2026-10-22T12:14:04 IST" name="verifyProjectsInMoreMenuTest" description="TC-VT-PROJ-06: Verify Projects is visible under the More navigation menu" finished-at="2026-10-22T12:14:47 IST" duration-ms="43483" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: Projects page is accessible from More menu.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProjectsInMoreMenuTest -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest@55b0dcab]" started-at="2026-10-22T12:14:47 IST" name="captureScreenshotOnFailure" finished-at="2026-10-22T12:14:47 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyProjectsInMoreMenuTest status=SUCCESS method=CRM_Vtiger_BITM_ProjectsTest.verifyProjectsInMoreMenuTest()[pri:1, instance:CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest@55b0dcab] output=PASS: Projects page is accessible from More menu.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="verifyNavigationFromListToProjectDetailTest()[pri:2, instance:CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest@55b0dcab]" started-at="2026-10-22T12:14:47 IST" name="verifyNavigationFromListToProjectDetailTest" description="TC-VT-PROJ-09: Verify navigation from Projects list to a project&#039;s related page" finished-at="2026-10-22T12:14:58 IST" duration-ms="10912" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Projects list opened: http://49.249.29.4:8888/index.php?module=Project&action=index]]>
+            </line>
+            <line>
+              <![CDATA[Create Project form opened.]]>
+            </line>
+            <line>
+              <![CDATA[Project Name entered: NavProj_da14d529]]>
+            </line>
+            <line>
+              <![CDATA[Save button clicked.]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Navigation to project detail verified: NavProj_da14d529]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyNavigationFromListToProjectDetailTest -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest@55b0dcab]" started-at="2026-10-22T12:14:58 IST" name="captureScreenshotOnFailure" finished-at="2026-10-22T12:14:58 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyNavigationFromListToProjectDetailTest status=SUCCESS method=CRM_Vtiger_BITM_ProjectsTest.verifyNavigationFromListToProjectDetailTest()[pri:2, instance:CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest@55b0dcab] output=Projects list opened: http://49.249.29.4:8888/index.php?module=Project&action=index]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="createProjectWithValidDetailsTest()[pri:3, instance:CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest@55b0dcab]" started-at="2026-10-22T12:14:58 IST" name="createProjectWithValidDetailsTest" description="TC-VT-PROJ-01: Verify creation of a new project with valid details" finished-at="2026-10-22T12:15:04 IST" duration-ms="5977" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Projects list opened: http://49.249.29.4:8888/index.php?module=Project&action=index]]>
+            </line>
+            <line>
+              <![CDATA[Create Project form opened.]]>
+            </line>
+            <line>
+              <![CDATA[Project Name entered: QAProj_480b1296]]>
+            </line>
+            <line>
+              <![CDATA[Save button clicked.]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Created project with valid details: QAProj_480b1296]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createProjectWithValidDetailsTest -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest@55b0dcab]" started-at="2026-10-22T12:15:04 IST" name="captureScreenshotOnFailure" finished-at="2026-10-22T12:15:04 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createProjectWithValidDetailsTest status=SUCCESS method=CRM_Vtiger_BITM_ProjectsTest.createProjectWithValidDetailsTest()[pri:3, instance:CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest@55b0dcab] output=Projects list opened: http://49.249.29.4:8888/index.php?module=Project&action=index]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="searchSavedProjectByNameTest()[pri:4, instance:CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest@55b0dcab]" started-at="2026-10-22T12:15:04 IST" name="searchSavedProjectByNameTest" description="TC-VT-PROJ-02: Verify a saved project using project-name search" finished-at="2026-10-22T12:15:13 IST" duration-ms="8631" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Projects list opened: http://49.249.29.4:8888/index.php?module=Project&action=index]]>
+            </line>
+            <line>
+              <![CDATA[Create Project form opened.]]>
+            </line>
+            <line>
+              <![CDATA[Project Name entered: SearchProj_97b8447b]]>
+            </line>
+            <line>
+              <![CDATA[Save button clicked.]]>
+            </line>
+            <line>
+              <![CDATA[Projects list opened: http://49.249.29.4:8888/index.php?module=Project&action=index]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Saved project found in search results: SearchProj_97b8447b]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchSavedProjectByNameTest -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest@55b0dcab]" started-at="2026-10-22T12:15:13 IST" name="captureScreenshotOnFailure" finished-at="2026-10-22T12:15:13 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchSavedProjectByNameTest status=SUCCESS method=CRM_Vtiger_BITM_ProjectsTest.searchSavedProjectByNameTest()[pri:4, instance:CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest@55b0dcab] output=Projects list opened: http://49.249.29.4:8888/index.php?module=Project&action=index]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="verifyMandatoryFieldsValidationTest()[pri:5, instance:CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest@55b0dcab]" started-at="2026-10-22T12:15:13 IST" name="verifyMandatoryFieldsValidationTest" description="TC-VT-PROJ-07: Verify mandatory-field validation when saving a project with missing details" finished-at="2026-10-22T12:15:15 IST" duration-ms="2444" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Projects list opened: http://49.249.29.4:8888/index.php?module=Project&action=index]]>
+            </line>
+            <line>
+              <![CDATA[Create Project form opened.]]>
+            </line>
+            <line>
+              <![CDATA[Project Name entered: ]]>
+            </line>
+            <line>
+              <![CDATA[Save button clicked.]]>
+            </line>
+            <line>
+              <![CDATA[PASS: Empty mandatory Project Name rejected as expected.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyMandatoryFieldsValidationTest -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest@55b0dcab]" started-at="2026-10-22T12:15:15 IST" name="captureScreenshotOnFailure" finished-at="2026-10-22T12:15:15 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMandatoryFieldsValidationTest status=SUCCESS method=CRM_Vtiger_BITM_ProjectsTest.verifyMandatoryFieldsValidationTest()[pri:5, instance:CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest@55b0dcab] output=Projects list opened: http://49.249.29.4:8888/index.php?module=Project&action=index]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest@55b0dcab]" started-at="2026-10-22T12:15:15 IST" name="closeBrowser" finished-at="2026-10-22T12:15:16 IST" duration-ms="459" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Class: Closing browser]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest -->
+      <class name="CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest">
+        <test-method is-config="true" signature="navigateToApp(java.lang.String)[pri:0, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@2df3b89c]" started-at="2026-10-22T12:17:49 IST" name="navigateToApp" finished-at="2026-10-22T12:19:06 IST" duration-ms="77035" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Class: Launching browser]]>
+            </line>
+            <line>
+              <![CDATA[Application opened: http://49.249.29.4:8888/index.php]]>
+            </line>
+            <line>
+              <![CDATA[Login form displayed successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Login completed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- navigateToApp -->
+        <test-method signature="verifyProjectMilestonesInMoreMenuTest()[pri:1, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@2df3b89c]" started-at="2026-10-22T12:19:06 IST" name="verifyProjectMilestonesInMoreMenuTest" description="TC-VT-PM-06: Verify Project Milestones is visible under the More menu" finished-at="2026-10-22T12:19:49 IST" duration-ms="42524" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: Project Milestones opened from More menu.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProjectMilestonesInMoreMenuTest -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@2df3b89c]" started-at="2026-10-22T12:19:49 IST" name="captureScreenshotOnFailure" finished-at="2026-10-22T12:19:49 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyProjectMilestonesInMoreMenuTest status=SUCCESS method=CRM_Vtiger_BITM_ProjectMilestonesTest.verifyProjectMilestonesInMoreMenuTest()[pri:1, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@2df3b89c] output=PASS: Project Milestones opened from More menu.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="verifyAllExpectedFieldsVisibleTest()[pri:2, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@2df3b89c]" started-at="2026-10-22T12:19:49 IST" name="verifyAllExpectedFieldsVisibleTest" description="TC-VT-PM-05: Verify all expected fields are visible on the New Project Milestone form" finished-at="2026-10-22T12:20:02 IST" duration-ms="13864" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: All expected milestone fields are visible and interactable.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAllExpectedFieldsVisibleTest -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@2df3b89c]" started-at="2026-10-22T12:20:02 IST" name="captureScreenshotOnFailure" finished-at="2026-10-22T12:20:02 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAllExpectedFieldsVisibleTest status=SUCCESS method=CRM_Vtiger_BITM_ProjectMilestonesTest.verifyAllExpectedFieldsVisibleTest()[pri:2, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@2df3b89c] output=PASS: All expected milestone fields are visible and interactable.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="createProjectMilestoneWithValidDetailsTest()[pri:3, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@2df3b89c]" started-at="2026-10-22T12:20:02 IST" name="createProjectMilestoneWithValidDetailsTest" description="TC-VT-PM-03: Verify creation of a new Project Milestone with valid details" finished-at="2026-10-22T12:20:15 IST" duration-ms="12669" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: Created milestone: Milestone_8557a5ae | Type: administrative | Project: Suekha]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createProjectMilestoneWithValidDetailsTest -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@2df3b89c]" started-at="2026-10-22T12:20:15 IST" name="captureScreenshotOnFailure" finished-at="2026-10-22T12:20:15 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createProjectMilestoneWithValidDetailsTest status=SUCCESS method=CRM_Vtiger_BITM_ProjectMilestonesTest.createProjectMilestoneWithValidDetailsTest()[pri:3, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@2df3b89c] output=PASS: Created milestone: Milestone_8557a5ae | Type: administrative | Project: Suekha]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="verifyMandatoryFieldsValidationTest()[pri:4, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@2df3b89c]" started-at="2026-10-22T12:20:15 IST" name="verifyMandatoryFieldsValidationTest" description="TC-VT-PM-07: Verify mandatory-field validation when saving a milestone with missing details" finished-at="2026-10-22T12:20:20 IST" duration-ms="5235" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: Empty mandatory field validation caught successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyMandatoryFieldsValidationTest -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@2df3b89c]" started-at="2026-10-22T12:20:20 IST" name="captureScreenshotOnFailure" finished-at="2026-10-22T12:20:20 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMandatoryFieldsValidationTest status=SUCCESS method=CRM_Vtiger_BITM_ProjectMilestonesTest.verifyMandatoryFieldsValidationTest()[pri:4, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@2df3b89c] output=PASS: Empty mandatory field validation caught successfully.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="verifyMilestoneSearchMismatchedFilterTest()[pri:5, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@2df3b89c]" started-at="2026-10-22T12:20:20 IST" name="verifyMilestoneSearchMismatchedFilterTest" description="TC-VT-PM-08: Verify milestone search returns no unrelated record for a mismatched filter" finished-at="2026-10-22T12:20:25 IST" duration-ms="4947" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: Mismatched search returned no records as expected.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyMilestoneSearchMismatchedFilterTest -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@2df3b89c]" started-at="2026-10-22T12:20:25 IST" name="captureScreenshotOnFailure" finished-at="2026-10-22T12:20:25 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMilestoneSearchMismatchedFilterTest status=SUCCESS method=CRM_Vtiger_BITM_ProjectMilestonesTest.verifyMilestoneSearchMismatchedFilterTest()[pri:5, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@2df3b89c] output=PASS: Mismatched search returned no records as expected.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@2df3b89c]" started-at="2026-10-22T12:20:25 IST" name="closeBrowser" finished-at="2026-10-22T12:20:26 IST" duration-ms="517" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Class: Closing browser]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

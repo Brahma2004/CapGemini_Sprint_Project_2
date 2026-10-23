@@ -1,0 +1,140 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Oct 22 12:04:06 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>109 seconds (109157 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest.verifyMandatoryFieldsValidationTest()'><b>verifyMandatoryFieldsValidationTest</b><br>Test class: CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest<br>Test method: TC-VT-PM-07: Verify mandatory-field validation when saving a milestone with missing details<br/>
+<a href="#Output-1247866422" onClick='toggleBox("Output-1247866422", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1247866422" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1247866422">
+PASS: Empty mandatory field validation caught successfully.<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@367ffa75</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest.verifyMilestoneSearchMismatchedFilterTest()'><b>verifyMilestoneSearchMismatchedFilterTest</b><br>Test class: CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest<br>Test method: TC-VT-PM-08: Verify milestone search returns no unrelated record for a mismatched filter<br/>
+<a href="#Output-654740048" onClick='toggleBox("Output-654740048", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-654740048" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-654740048">
+PASS: Mismatched search returned no records as expected.<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@367ffa75</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest.createProjectMilestoneWithValidDetailsTest()'><b>createProjectMilestoneWithValidDetailsTest</b><br>Test class: CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest<br>Test method: TC-VT-PM-03: Verify creation of a new Project Milestone with valid details<br/>
+<a href="#Output-1921553024" onClick='toggleBox("Output-1921553024", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1921553024" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1921553024">
+PASS: Created milestone: Milestone_6bd881b6 | Type: administrative | Project: Suekha<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@367ffa75</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest.verifyProjectMilestonesInMoreMenuTest()'><b>verifyProjectMilestonesInMoreMenuTest</b><br>Test class: CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest<br>Test method: TC-VT-PM-06: Verify Project Milestones is visible under the More menu<br/>
+<a href="#Output-2121317689" onClick='toggleBox("Output-2121317689", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2121317689" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2121317689">
+PASS: Project Milestones opened from More menu.<br/>
+</div>
+</td>
+<td></td>
+<td>33</td>
+<td>CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@367ffa75</td></tr>
+<tr>
+<td title='CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest.verifyAllExpectedFieldsVisibleTest()'><b>verifyAllExpectedFieldsVisibleTest</b><br>Test class: CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest<br>Test method: TC-VT-PM-05: Verify all expected fields are visible on the New Project Milestone form<br/>
+<a href="#Output-1027200" onClick='toggleBox("Output-1027200", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1027200" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1027200">
+PASS: All expected milestone fields are visible and interactable.<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest@367ffa75</td></tr>
+</table><p>
+</body>
+</html>

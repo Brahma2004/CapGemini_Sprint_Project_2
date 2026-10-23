@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="VTiger_Group_Execution_Suite">
+
+  <test name="Group_Test_Execution">
+    <parameter name="browser" value="chrome" />
+
+    <groups>
+      <run>
+        <!-- Specify the groups you want to execute -->
+        <include name="Smoke" />
+        <include name="Functional" />
+        <include name="Regression" />
+
+        <!-- Optionally exclude unstable or draft groups -->
+        <!-- <exclude name="Broken" /> -->
+      </run>
+    </groups>
+
+    <classes>
+      <class name="CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test" />
+      <class name="CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest" />
+      <class name="CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest" />
+      <class name="CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest" />
+      <class name="CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest" />
+      <class name="CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest" />
+      
+    </classes>
+  </test> <!-- Group_Test_Execution -->
+
+</suite> <!-- VTiger_Group_Execution_Suite -->

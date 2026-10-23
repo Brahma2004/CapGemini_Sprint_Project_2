@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="CRM_Vtiger_BITM_ProjectTasks.CRM_Vtiger_BITM_ProjectTasksTest"/>
+      <class name="CRM_Vtiger_BITM_Login_HomePage.CRM_Vtiger_BITM_LoginHomePage_Test"/>
+      <class name="CRM_Vtiger_BITM_Projects.CRM_Vtiger_BITM_ProjectsTest"/>
+      <class name="CRM_Vtiger_BITM_ServiceContracts.CRM_Vtiger_BITM_ServiceContractsTest"/>
+      <class name="CRM_Vtiger_BITM_ProjectMilestones.CRM_Vtiger_BITM_ProjectMilestonesTest"/>
+      <class name="CRM_Vtiger_BITM_FAQ.CRM_Vtiger_BITM_FAQTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
