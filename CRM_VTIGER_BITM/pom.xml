@@ -1,85 +1,210 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>Framework</groupId>
+  <artifactId>Framework</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  
+   <dependencies><!-- Source: https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+   <dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.46.0</version>
+    <scope>compile</scope>
+    </dependency>
+    
+    <!-- Source: https://mvnrepository.com/artifact/org.apache.poi/poi -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>5.4.1</version>
+    <scope>compile</scope>
+</dependency>
+    <!-- Source: https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>5.4.1</version>
+    <scope>compile</scope>
+</dependency>
 
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<!-- Source: https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
+<dependency>
+    <groupId>com.googlecode.json-simple</groupId>
+    <artifactId>json-simple</artifactId>
+    <version>1.1.1</version>
+    <scope>compile</scope>
+</dependency>
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.9.0</version>
 
-    <modelVersion>4.0.0</modelVersion>
+</dependency>
+   </dependencies>
+   <profiles>
 
-    <groupId>CRM_Vtiger</groupId>
-    <artifactId>CRM_Vtiger_Automation</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
+        <profile>
+            <id>BATCH</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <version>${surefire.version}</version>
+                        <configuration>
+                            <suiteXmlFiles>
+                                <suiteXmlFile>Batch_Execution.xml</suiteXmlFile>
+                            </suiteXmlFiles>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
 
-    <properties>
-        <maven.compiler.release>21</maven.compiler.release>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <selenium.version>4.49.0</selenium.version>
-        <testng.version>7.11.0</testng.version>
-        <poi.version>5.4.1</poi.version>
-    </properties>
+        <profile>
+            <id>CROSSBROWSER</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <version>${surefire.version}</version>
+                        <configuration>
+                            <suiteXmlFiles>
+                                <suiteXmlFile>CROSSBROWSER.xml</suiteXmlFile>
+                            </suiteXmlFiles>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
 
-    <dependencies>
+        <profile>
+            <id>FUNCTIONAL</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <version>${surefire.version}</version>
+                        <configuration>
+                            <suiteXmlFiles>
+                                <suiteXmlFile>Functional.xml</suiteXmlFile>
+                            </suiteXmlFiles>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
 
-        <!-- Selenium WebDriver -->
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-java</artifactId>
-            <version>${selenium.version}</version>
-        </dependency>
+        <profile>
+            <id>Group</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <version>${surefire.version}</version>
+                        <configuration>
+                            <suiteXmlFiles>
+                                <suiteXmlFile>GROUPS.xml</suiteXmlFile>
+                            </suiteXmlFiles>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
 
-        <!-- TestNG: available to both main and test source code -->
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>${testng.version}</version>
-        </dependency>
+        <profile>
+            <id>INTEGRATION</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <version>${surefire.version}</version>
+                        <configuration>
+                            <suiteXmlFiles>
+                                <suiteXmlFile>Integration.xml</suiteXmlFile>
+                            </suiteXmlFiles>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
 
-        <!-- Apache POI: read and write Excel files -->
-        <dependency>
-            <groupId>org.apache.poi</groupId>
-            <artifactId>poi</artifactId>
-            <version>${poi.version}</version>
-        </dependency>
+        <profile>
+            <id>NEGATIVE</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <version>${surefire.version}</version>
+                        <configuration>
+                            <suiteXmlFiles>
+                                <suiteXmlFile>Negative.xml</suiteXmlFile>
+                            </suiteXmlFiles>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
 
-        <dependency>
-            <groupId>org.apache.poi</groupId>
-            <artifactId>poi-ooxml</artifactId>
-            <version>${poi.version}</version>
-        </dependency>
+        <profile>
+            <id>PARALLEL</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <version>${surefire.version}</version>
+                        <configuration>
+                            <suiteXmlFiles>
+                                <suiteXmlFile>Parallel_Execution.xml</suiteXmlFile>
+                            </suiteXmlFiles>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
 
-        <!-- WebDriverManager: automatically manages browser drivers -->
-        <dependency>
-            <groupId>io.github.bonigarcia</groupId>
-            <artifactId>webdrivermanager</artifactId>
-            <version>6.1.0</version>
-        </dependency>
+        <profile>
+            <id>SMOKE</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <version>${surefire.version}</version>
+                        <configuration>
+                            <suiteXmlFiles>
+                                <suiteXmlFile>Smoke.xml</suiteXmlFile>
+                            </suiteXmlFiles>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
 
-    </dependencies>
+        <profile>
+            <id>SYSTEM</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <version>${surefire.version}</version>
+                        <configuration>
+                            <suiteXmlFiles>
+                                <suiteXmlFile>System.xml</suiteXmlFile>
+                            </suiteXmlFiles>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
 
-    <build>
-        <plugins>
-
-            <!-- Compile the project using Java 21 -->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.14.1</version>
-                <configuration>
-                    <release>21</release>
-                </configuration>
-            </plugin>
-
-            <!-- Execute TestNG tests through Maven -->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.5.4</version>
-                <configuration>
-                    <useSystemClassLoader>true</useSystemClassLoader>
-                </configuration>
-            </plugin>
-
-        </plugins>
-    </build>
-
+    </profiles>
 </project>
